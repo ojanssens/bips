@@ -1,0 +1,40 @@
+<pre>
+  BIP: olivierjanssens-userchoice
+  Title: Giving users direct choice in feature activation
+  Author: Olivier Janssens <oj@protonmail.ch>
+  Status: (Early) Draft
+  Type: Process
+  Created: 2015-12-28
+</pre>
+
+==Definitions==
+
+“Feature”: Implemented version of a BIP
+
+==Abstract==
+
+This BIP proposes to give users direct choice in feature activation, instead of having developers decide which feature makes it into version x.
+
+==Copyright==
+
+Public domain
+
+==Motivation==
+
+The Core Development team became the final arbitrator in deciding which features make it into Bitcoin. This is creating serious and consistent friction with the users. It is also against Bitcoin’s open and decentralized nature. Developers cannot perfectly predict what the market wants or needs, and this proposal aims to solve that.
+
+==Specification==
+
+Full nodes and miners will be given the choice which features to enable. When certain competing features are incompatible with each other, only one of them can be enabled inside the client. 
+
+==Rationale==
+
+Certain features should only activate when they reach a certain % of adoption, like it is the case today. However, end users should retain the ultimate choice in which features to enable, even if the feature risks blowing up the network. This is no different as it is the case today, since anyone can introduce a hostile client onto the network.
+
+==Backwards Compatibility==
+
+Certain features that are activated and widely used, will no longer be able to be de-activated without serious consequences. I would recommend giving a special warning to the user in these cases.
+
+==Reference Implementation==
+
+To be completed
