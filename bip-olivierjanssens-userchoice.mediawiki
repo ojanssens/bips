@@ -1,15 +1,20 @@
 <pre>
-  BIP: 101
-  Title: Increase maximum block size
-  Author: Gavin Andresen <gavinandresen@gmail.com>
-  Status: Draft
-  Type: Standards Track
-  Created: 2015-06-22
+  BIP: olivierjanssens-userchoice
+  Title: Giving users direct choice in feature activation
+  Author: Olivier Janssens <oj@protonmail.ch>
+  Status: (Early) Draft
+  Type: Process
+  Created: 2015-12-28
 </pre>
+
+==Definitions==
+
+“Feature”: Implemented version of a BIP
 
 ==Abstract==
 
-This BIP proposes replacing the fixed one megabyte maximum block size with a maximum size that grows over time at a predictable rate.
+This BIP proposes to give users direct choice in feature activation, instead of having developers decide which feature makes it into version x.
+
 
 ==Motivation==
 
